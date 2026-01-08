@@ -1,0 +1,41 @@
+C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform>dir trade-consumer-service
+ Volume in drive C is Windows
+ Volume Serial Number is 547D-96C3
+
+ Directory of C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform\trade-consumer-service
+
+01/08/2026  08:02 PM    <DIR>          .
+01/08/2026  08:25 PM    <DIR>          ..
+01/08/2026  08:02 PM                40 .gitattributes
+01/08/2026  08:02 PM               427 .gitignore
+01/08/2026  07:45 PM    <DIR>          .idea
+01/08/2026  08:02 PM    <DIR>          .mvn
+01/08/2026  01:15 PM             1,346 HELP.md
+01/08/2026  08:02 PM            11,790 mvnw
+01/08/2026  08:02 PM             8,481 mvnw.cmd
+01/08/2026  08:02 PM             1,770 pom.xml
+01/08/2026  08:02 PM    <DIR>          src
+01/08/2026  03:55 PM    <DIR>          target
+               6 File(s)         23,854 bytes
+               6 Dir(s)  80,283,447,296 bytes free
+
+C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform>git add trade-consumer-service
+
+C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform>git commit -m "add trade-consumer-service"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform>git push origin main
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (33/33), 10.96 KiB | 54.00 KiB/s, done.
+Total 33 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mgmmuthuganesh-ux/real-time-trade-streaming-platform.git
+   c484931..1f622ae  main -> main
+
+C:\Users\m.g.muthukrishnan\real-time-trade-streaming-platform>
