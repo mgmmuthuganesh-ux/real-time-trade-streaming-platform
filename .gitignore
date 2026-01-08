@@ -1,13 +1,13 @@
 # Maven
 target/
+.mvn/
 
 # IntelliJ
 .idea/
 *.iml
 
-# Logs
-*.log
-
 # OS
 .DS_Store
-Thumbs.db
+
+# Logs
+*.log
