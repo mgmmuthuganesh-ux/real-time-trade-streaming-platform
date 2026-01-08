@@ -1,0 +1,42 @@
+real enterprise architecture
+Client / Market Data API
+        |
+        v
+
+Trade Ingestion Service   │  (Microservice 1)
+Spring Boot          
+REST API                
+Kafka Producer
+
+       |
+       v
+
+Confluent Kafka (Managed) 
+Topics
+trade-events
+ trade-aggregates
+ trade-alerts   
+
+       |
+       v
+
+Trade Processing Service  │  (Microservice 2)
+ Kafka Streams
+Windowing / Aggregates 
+Exactly-once
+
+      |
+      v
+
+Alert Service             │  (Microservice 3)
+Consumes alerts
+REST / Email / Logs
+
+       |
+       v
+
+ AWS Layer 
+ EC2 / EKS  
+S3 (optional sink)  
+CloudWatch   
+
