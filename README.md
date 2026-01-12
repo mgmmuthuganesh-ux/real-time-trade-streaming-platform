@@ -7,7 +7,10 @@ Real-Time Trade Streaming Platform (Kafka + Spring Boot)
 A real-time event-driven system that demonstrates how financial trade events are produced, streamed, and consumed using Apache Kafka and Spring Boot microservices.
 
 🧩 Architecture Overview
+
 <img width="302" height="223" alt="image" src="https://github.com/user-attachments/assets/e4f340e0-dc98-4885-9c42-dfb7a2eea222" />
+
+
 
 🛠 Tech Stack
 
@@ -26,6 +29,11 @@ Postman
 Zookeeper
 
 📁 Project Structure
+
+
+<img width="184" height="174" alt="image" src="https://github.com/user-attachments/assets/3b57c86d-a74d-43af-8e05-3b769187c2b5" />
+
+
 real-time-trade-streaming-platform/
 │
 ├── trade-producer-service/
